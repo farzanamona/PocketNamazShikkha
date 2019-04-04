@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeDrawer_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_container_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textbackground"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <Button
+                android:id="@+id/newHomeButton1_id"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@color/buttonbg"
+                android:drawableLeft="@drawable/menpic"
+                android:text="পুরুষ এর নামাজ শিক্ষা"
+                android:textColor="@color/white_text"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/newHomeButton2_id"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/buttonbg"
+                android:drawableLeft="@drawable/womanpic"
+                android:text="নারীর নামাজ শিক্ষা"
+                android:textColor="@color/white_text"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/homeNav_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/home_nav_header"
+        app:menu="@menu/home_nav_additional_directory">
+
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/optiona"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Option5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/backgroudwater"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/option5_Button_1_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা ফাতেহা"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_2_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা ফীল"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_3_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা মাউন"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_4_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা কাওছার"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_5_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা ইখলাছ"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_6_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা ফালাক্ব"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_7_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="সূরা নাস"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_8_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="তাশাহুদ"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_9_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="দরুদ"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option5_Button_10_id"
+                android:layout_width="280dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button"
+                android:text="দোয়া মাসূরা"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/option5_textView3_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

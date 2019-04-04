@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pocketnamazshikkha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QuestionAndAnswerFragment"></activity>
+        <activity android:name=".HadisFragment" />
+        <activity android:name=".NamazConditionFragment" />
+        <activity android:name=".KiyamFragment" />
+        <activity android:name=".DuyaAndZikirFragment" />
+        <activity android:name=".AzanAndDuyaFragment" />
+        <activity android:name=".ManActivity" />
+        <activity android:name=".WomanActivity" />
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Option5TextActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option3TextActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option2TextActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".GosolActivity_Option1"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option5Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option4Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option3Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option2Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Option1Activity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_nav_Azan_id"
+        android:title="আযান ও আযানের দো‘আ"
+
+        />
+    <item
+        android:id="@+id/home_nav_Duya_id"
+        android:title="দো‘আ ও জিকির"
+
+        />
+    <item
+        android:id="@+id/home_nav_Kiyam_id"
+        android:title="কিয়ামের বিবরন"
+
+        />
+    <item
+        android:id="@+id/home_nav_Shorto_id"
+        android:title="নামাযের শর্তাবলী ও আরকানসমূহ"
+
+        />
+    <item
+        android:id="@+id/home_nav_Hadis_id"
+        android:title="হাদিস"
+
+        />
+    <item
+        android:id="@+id/home_question_answer_id"
+        android:title="হাদিস"
+
+        />
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ManActivity">
+
+    <Button
+        android:id="@+id/homeButton_1_id"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button"
+        android:text="তাহারাত (পবিত্রতা)"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/homeButton_2_id"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button"
+        android:text="নামাজের ওয়াক্ত"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/homeButton_3_id"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button"
+        android:text="নামাজের নিয়ত"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/homeButton_4_id"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button"
+        android:text="নামাজ পড়ার নিয়ম"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/homeButton_5_id"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/button"
+        android:text="নামাজের জন্য সূরা"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
