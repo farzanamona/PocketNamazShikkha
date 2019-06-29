@@ -7,7 +7,7 @@ import android.widget.TextView;
 public class GosolActivity_Option1 extends AppCompatActivity {
 
 
-    TextView gosol_details, oju_detals_1, Oju_detals_2, oju_detals_3, oju_detals_4;
+    TextView gosol_details, oju_detals_1, Oju_detals_2, oju_detals_3, oju_detals_4,go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

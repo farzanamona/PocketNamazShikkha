@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/ttxtbg"
     android:layout_height="match_parent"
     tools:context=".KiyamFragment">
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="30dp"
+
+        >
+
+        <TextView
+            android:id="@+id/kiyam_textView_1_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/kiyam_textView_2_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/kiyam_textView_3_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/kiyam_textView_4_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/kiyam_textView_5_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/kiyam_textView_6_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/kiyam_textView_7_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="28sp" />
+    </LinearLayout>
+</ScrollView>

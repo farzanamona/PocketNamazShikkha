@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/textbg"
-    android:gravity="center"
-    android:orientation="vertical"
+    android:background="@drawable/ttxtbg"
     tools:context=".NamazConditionFragment">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="30dp"
-            android:background="@color/backgroudwater"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -127,4 +122,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+

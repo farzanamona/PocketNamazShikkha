@@ -3,18 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/textbg"
+    android:background="@drawable/ttxtbg"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".Option2TextActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="30dp"
-        android:background="@color/backgroudwater"
-        android:gravity="center"
-        android:orientation="vertical">
+
 
         <TextView
             android:id="@+id/option2_textView_id"
@@ -26,7 +20,6 @@
             android:textSize="28sp" />
 
 
-    </LinearLayout>
 
 
 </LinearLayout>
